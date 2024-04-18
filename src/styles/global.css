@@ -7,7 +7,7 @@
 }
 
 body {
-  max-inline-size: 1366px;
+  /* max-inline-size: 1366px; */
   margin: 0 auto;
   color: #1A212F;
   font-family: Lato, Arial, Helvetica, sans-serif;

@@ -47,13 +47,20 @@ a:focus-visible {
   outline: 2px solid black;
 }
 
+/* я поставил для десктопа максимальную ширину - 1170px. 
+в будущем, для резиновой верстки, я бы сделал clamp, чтобы избежать медиа запросов
+margin: 0 auto; - для центрирования  
+паддинги в этом случае не нужны тк контейнер не будет выходить за пределы макс ширины, но нужны будут, если сам контент будет уже*/
+
 .content-wrapper {
-  padding-inline: 15px;
+  max-inline-size: 1170px;
+  /* padding-inline: 15px; */
+  margin: 0 auto;
 }
 
 @media (width > 768px) { 
   .content-wrapper {
-    padding-inline: 98px;
+    /* padding-inline: 98px; */
   }
 }
 
