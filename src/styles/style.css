@@ -1,3 +1,29 @@
+.section-title {
+  margin-block-end: 70px;
+  font-family: Rubik-bold, Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.card-title {
+  font-family: Rubik-bold, Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  line-height: 1.19;
+}
+
+.button {
+  font-weight: 600;
+  line-height: 1.2;
+  color: #FFFEFD;
+  background-color: #FF7236;
+  border: none;
+  border-radius: 26px;
+  outline: none;
+  padding: 18px 63px 20px 30px;
+}
+
+
 /*--------------header------------------*/
 .header {
   display: flex;

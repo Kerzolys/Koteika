@@ -9,6 +9,11 @@
 body {
   max-inline-size: 1366px;
   margin: 0 auto;
+  color: #1A212F;
+  font-family: Lato, Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  background-color: #FFFEFD;
 }
 
 h1,
@@ -28,4 +33,12 @@ a {
 
 img {
   inline-size: 100%;
+}
+
+button, a {
+  font-family: inherit;
+}
+
+li {
+  list-style: none;
 }

@@ -1,0 +1,65 @@
+.rooms {
+  margin-block-start: 137px;
+  padding-inline: 69px 71px;
+}
+
+.rooms__title {
+}
+
+.rooms-slider {
+}
+.slider__card {
+  display: flex;
+}
+.slider__card-image {
+  inline-size: 600px;
+  block-size: 404px;
+  border-radius: 10px;
+}
+.slider__card-description {
+  margin-inline-start: -70px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px 117px 40px 100px;
+  box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  margin-block: 60px;
+}
+.slider__card-description-title {
+}
+
+.slider__card-description-list {
+  margin-block: 30px;
+}
+.slider__card-description-list-item {
+  position: relative;
+  margin-inline-start: 21px;
+}
+.slider__card-description-list-item::before {
+  content: "";
+  position: absolute;
+  inset: 1.5px -21px;
+  inline-size: 13px;
+  aspect-ratio: 1 / 1;
+  background-color: #fac663;
+  border-radius: 50%;
+}
+.slider__card-description-button {
+}
+.button {
+}
+.slider__navigation-block {
+}
+.navigation-block__dots {
+}
+.navigation-block__dot {
+}
+.navigation-block__dot_active {
+}
+.navigation-block__arrows {
+}
+.navigation-block__arrow_back {
+}
+.navigation-block__arrow_forward {
+}
+.reviews {
+}

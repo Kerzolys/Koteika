@@ -1,6 +1,20 @@
 @font-face {
-  font-family: 'Lato-regular';
+  font-family: Lato;
   src: url(./Lato-Regular.ttf) format('ttf');
   font-display: swap;
   font-weight: 400;
+}
+
+@font-face {
+  font-family: Rubik-medium;
+  src: url(./Rubik-Medium.ttf) format('ttf');
+  font-display: swap;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Rubik-bold;
+  src: url(./Rubik-Bold.ttf) format('ttf');
+  font-display: swap;
+  font-weight: 700;
 }
