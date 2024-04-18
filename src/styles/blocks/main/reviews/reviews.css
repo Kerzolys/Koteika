@@ -1,0 +1,36 @@
+.reviews {
+  margin-block: 143px 140px;
+}
+
+.reviews__title {
+}
+
+.reviews__slider {
+}
+.reviews__slider-item {
+  max-inline-size: 470px;
+  padding: 35px 35px 35px 70px;
+}
+.item__text {
+  font-weight: 500;
+  line-height: 1.4;
+  position: relative;
+}
+.item__text-accent {
+  position: absolute;
+  inset: -11px -43px;
+  font-size: 72;
+  line-height: 1.2;
+  color: #FAC663;
+}
+.item__info-block {
+  margin-block-start: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  color: #848484;
+}
+.info-block__person {
+}
+.info-block__date {
+}

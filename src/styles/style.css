@@ -23,6 +23,12 @@
   padding: 18px 63px 20px 30px;
 }
 
+.card {
+  box-shadow: 0 0 25px 0 rgba(208, 208, 208, 0.25);
+  background-color: #fff;
+  border-radius: 8px;
+}
+
 
 a {
   text-decoration: none;

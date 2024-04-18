@@ -37,7 +37,9 @@ img {
 
 button, a {
   font-family: inherit;
+  cursor: pointer;
 }
+
 
 li {
   list-style: none;
