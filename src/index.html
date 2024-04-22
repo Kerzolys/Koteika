@@ -12,60 +12,58 @@
       <button 
         class="header__button-burger-menu" 
         type="button" 
-        onclick="window['dialog-id'].showModal();"
+        onclick="document.querySelector('#burger-menu-id').style.display = 'block'"
       >
         <img class="header__icon-burger-menu" src="./images/burger-menu-icon.svg" alt="no" aria-hidden="true">
       </button>
 
-      <dialog class="dialog" id="dialog-id">
-        <form method="dialog">
-          <button class="button dialog__content_button"
-                  type="button"
-                  onclick="window['dialog-id'].close();"
-          >
-            <img src="./images/close-icon.svg" alt="close" aria-hidden="true">
-          </button>
+      <div class="burger-menu" id="burger-menu-id">
+        <button class="button burger-menu__content_button"
+                type="button"
+                onclick="document.querySelector('#burger-menu-id').style.display = 'none'"
+                >
+          <img src="./images/burger-menu-icon.svg" alt="close" aria-hidden="true">
+        </button>
 
-          <img class="header__dialog-icon" src="./images/лого.svg" alt="Логотип сайта">
+        <img class="header__burger-menu-icon" src="./images/лого.svg" alt="Логотип сайта">
 
-          <nav class="header__dialog-nav">
-            <ul class="header__dialog-nav-list">
-              <li class="header__dialog-nav-list-item">
-                <a href="#">Почему мы?</a>
-              </li>
-              <li class="header__dialog-nav-list-item">
-                <a href="#">Номера</a>
-              </li>
-              <li class="header__dialog-nav-list-item">
-                <a href="#">Отзывы</a>
-              </li>
-              <li class="header__dialog-nav-list-item">
-                <a href="#">Как нас найти</a>
-              </li>
-            </ul>
-          </nav>
-
-          <a class="header__dialog-link-tel" href="tel:+8 (800) 333-55-99">8 (800) 333-55-99</a>
-
-          <ul class="header__dialog-social-list">
-            <li class="header__dialog-social-list-item">
-              <a href="#">
-                <img src="./images/Group 26.svg">
-              </a>
+        <nav class="header__burger-menu-nav">
+          <ul class="header__burger-menu-nav-list">
+            <li class="header__burger-menu-nav-list-item">
+              <a href="#">Почему мы?</a>
             </li>
-            <li class="header__dialog-social-list-item">
-              <a href="#">
-                <img src="./images/Group 46.svg">
-              </a>
+            <li class="header__burger-menu-nav-list-item">
+              <a href="#">Номера</a>
             </li>
-            <li class="header__dialog-social-list-item">
-              <a href="#">
-                <img src="./images/Group 47.svg">
-              </a>
+            <li class="header__burger-menu-nav-list-item">
+              <a href="#">Отзывы</a>
+            </li>
+            <li class="header__burger-menu-nav-list-item">
+              <a href="#">Как нас найти</a>
             </li>
           </ul>
-        </form>
-      </dialog>
+        </nav>
+
+        <a class="header__burger-menu-link-tel" href="tel:+8 (800) 333-55-99">8 (800) 333-55-99</a>
+
+        <ul class="header__burger-menu-social-list">
+          <li class="header__burger-menu-social-list-item">
+            <a href="#">
+              <img src="./images/Group 26.svg">
+            </a>
+          </li>
+          <li class="header__burger-menu-social-list-item">
+            <a href="#">
+              <img src="./images/Group 46.svg">
+            </a>
+          </li>
+          <li class="header__burger-menu-social-list-item">
+            <a href="#">
+              <img src="./images/Group 47.svg">
+            </a>
+          </li>
+        </ul>
+      </div>
 
       <nav class="header__nav header__nav-main">
         <ul class="header__nav-list">
@@ -84,6 +82,7 @@
         </ul>
       </nav>
     </header>
+
     <main class="main">
       <section class="rooms content-wrapper">
         <h2 class="rooms__title section-title">Номера</h2>
